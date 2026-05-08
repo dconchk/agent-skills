@@ -1,0 +1,44 @@
+{
+  "name": "agent-skills",
+  "version": "1.0.0",
+  "description": "Production-grade engineering skills for AI coding agents, covering the full software development lifecycle from spec to ship.",
+  "author": {
+    "name": "Addy Osmani",
+    "url": "https://github.com/addyosmani"
+  },
+  "homepage": "https://github.com/dconchk/agent-skills",
+  "repository": "https://github.com/dconchk/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "coding-agents",
+    "software-development",
+    "planning",
+    "testing",
+    "code-review",
+    "shipping"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Skills",
+    "shortDescription": "Engineering workflows for planning, building, testing, reviewing, and shipping code",
+    "longDescription": "Agent Skills packages production-grade software engineering workflows as Codex skills. Use it to guide agents through idea refinement, specifications, planning, incremental implementation, test-driven development, debugging, code review, simplification, documentation, security, performance, automation, migrations, and shipping.",
+    "developerName": "Addy Osmani",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/dconchk/agent-skills",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": [
+      "Use agent skills to plan this change.",
+      "Review this work before I ship it.",
+      "Help me debug this failure systematically."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}
